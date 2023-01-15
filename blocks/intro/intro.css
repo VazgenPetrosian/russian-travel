@@ -1,0 +1,23 @@
+.intro {
+  width: 54%;
+  /* min-height: 429px; */
+  margin: 0 442px 92px 148px;
+}
+@media (max-width: 1024px) {
+  .intro {
+    width: 67%;
+    margin: 0 28% 92px 4.6%;
+  }
+}
+@media (max-width: 768px) {
+  .intro {
+    width: 93.75%;
+    margin: 0 3.125% 88px 3.125%;
+  }
+}
+@media (max-width: 320px) {
+  .intro {
+    width: 90%;
+    margin: 0 5% 64px 5%;
+  }
+}

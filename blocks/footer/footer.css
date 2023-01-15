@@ -1,0 +1,21 @@
+.footer {
+  width: 92.5%;
+  margin: 48px 3.75% 24px 3.75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .footer {
+    width: 93.75%;
+    margin: 88px 3.125% 24px 3.125%;
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    width: 58.1%;
+    margin: 64px 118px 24px 16px;
+    flex-direction: column;
+    row-gap: 48px;
+  }
+}

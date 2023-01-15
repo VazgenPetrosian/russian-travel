@@ -1,0 +1,10 @@
+.place__paragraph_number_second {
+  margin: 0;
+  margin-top: 26px;
+}
+@media (max-width: 768px) {
+  .place__paragraph_number_second {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
