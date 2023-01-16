@@ -1,12 +1,22 @@
 .place__paragraphs {
   margin: 0;
   grid-area: paragraphs;
-  min-width: 484px;
+  width: 484px;
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
   color: #fff;
+}
+@media (max-width: 1024px) {
+  .place__paragraphs {
+    width: 456px;
+  }
+}
+@media (max-width: 930px) {
+  .place__paragraphs {
+    width: 410px;
+  }
 }
 @media (max-width: 768px) {
   .place__paragraphs {

@@ -6,21 +6,33 @@
   line-height: 36px;
   text-align: center;
   color: #ffffff;
-  width: calc(100% - 172px * 2);
+  padding: 0 17%;
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 64px;
+  /* width: calc(100% - 172px * 2);
   margin: 32px 172px 64px 172px;
-  min-height: 72px;
+  min-height: 72px; */
+}
+@media (max-width: 842px) {
+  .lead__subtitle {
+    padding-right: 13%;
+    padding-left: 13%;
+  }
 }
 @media (max-width: 768px) {
   .lead__subtitle {
-    margin: 32px 64px 56px 64px;
-    width: 83.3%;
+    /* margin: 32px 64px 56px 64px;
+    width: 83.3%; */
   }
 }
+
 @media (max-width: 320px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
     margin: 16px 5% 40px 5%;
     width: 90%;
+    padding: 0;
   }
 }

@@ -1,6 +1,17 @@
 .place__website {
   grid-area: website;
   align-self: flex-end;
+  width: 484px;
+}
+@media (max-width: 1024px) {
+  .place__website {
+    width: 456px;
+  }
+}
+@media (max-width: 930px) {
+  .place__website {
+    width: 405px;
+  }
 }
 @media (max-width: 320px) {
   .place__website {
