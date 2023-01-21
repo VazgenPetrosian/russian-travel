@@ -5,6 +5,7 @@
     "title website"
     "image paragraphs"
     "image paragraphs";
+  grid-template-columns: 50% 50%;
   margin-bottom: 80px;
   column-gap: 3.1%;
   row-gap: 48px;
@@ -26,6 +27,18 @@
     column-gap: 28px;
   }
 }
+@media (max-width: 470px) {
+  .place {
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "paragraphs";
+    row-gap: 32px;
+    column-gap: 0;
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 320px) {
   .place {
     grid-template-areas:
@@ -34,5 +47,7 @@
       "image"
       "paragraphs";
     row-gap: 32px;
+    column-gap: 0;
+    grid-template-columns: 1fr;
   }
 }

@@ -5,6 +5,7 @@
   font-size: 14px;
   line-height: 16px;
   text-align: center;
+  align-self: start;
 }
 /* @media (max-width: 500px) {
   .footer__author {

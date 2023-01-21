@@ -1,5 +1,5 @@
 .place__title {
-  width: 460px;
+  /* width: 460px; */
   grid-area: title;
   font-family: "Inter";
   font-weight: 900;
@@ -10,12 +10,12 @@
 }
 @media (max-width: 1024px) {
   .place__title {
-    width: 440px;
+    /* width: 440px; */
   }
 }
 @media (max-width: 930px) {
   .place__title {
-    width: 400px;
+    /* width: 400px; */
   }
 }
 @media (max-width: 768px) {
@@ -28,6 +28,7 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 0 16px;
+    padding: 0 31px;
+    /* width: 0; */
   }
 }
