@@ -12,15 +12,7 @@
   }
 }
 
-@media (max-width: 500px) {
-  .footer {
-    width: 58.1%;
-    margin: 64px 118px 24px 16px;
-    flex-direction: column;
-    row-gap: 48px;
-  }
-}
-@media (max-width: 320px) {
+@media (max-width: 565px) {
   .footer {
     width: 58.1%;
     margin: 64px 118px 24px 16px;

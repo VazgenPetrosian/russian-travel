@@ -1,8 +1,11 @@
 .place__paragraphs {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
   grid-area: paragraphs;
   max-width: 484px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
@@ -32,9 +35,6 @@
 }
 @media (max-width: 320px) {
   .place__paragraphs {
-    width: 270px;
     padding: 0 16px;
-    font-size: 16px;
-    line-height: 26px;
   }
 }

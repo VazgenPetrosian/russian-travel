@@ -4,13 +4,8 @@
   margin: 0;
   list-style-type: none;
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
-}
-@media (max-width: 320px) {
-  .intro__list {
-    width: 100%;
-  }
 }

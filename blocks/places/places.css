@@ -1,21 +1,30 @@
 .places {
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
   max-width: 984px;
   margin: 0 auto;
+  margin-bottom: 136px;
 }
 @media (max-width: 1024px) {
   .places {
     width: 90.5%;
     margin: 0 3.75%;
+    margin-bottom: 92px;
   }
 }
 @media (max-width: 768px) {
   .places {
     max-width: 720px;
+    row-gap: 73px;
+    margin-bottom: 90px;
   }
 }
 @media (max-width: 320px) {
   .places {
     width: 100%;
     margin: 0;
+    row-gap: 50px;
+    margin-bottom: 66px;
   }
 }

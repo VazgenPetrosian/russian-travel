@@ -1,11 +1,11 @@
-.place__website_location_link {
+.place__link {
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-decoration: underline;
 }
-.place__website_location_link:hover {
+.place__link:hover {
   opacity: 0.8;
 }

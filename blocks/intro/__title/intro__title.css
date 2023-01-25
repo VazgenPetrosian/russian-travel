@@ -1,16 +1,15 @@
 .intro__title {
-  width: 100%;
+  max-width: 100%;
   margin: 0 0px 40px 0px;
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   min-height: 58px;
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .intro__title {
-    width: 90%;
     font-size: 32px;
     line-height: 35px;
   }
