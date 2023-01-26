@@ -8,15 +8,7 @@
   color: #ffffff;
   padding: 0 9.8%;
   margin: 0;
-  /* width: calc(100% - 132px * 2);
-  min-height: 200px;
-  margin: 0 132px; */
 }
-/* @media (max-width: 840px) {
-  .lead__title {
-    padding: 0;
-  }
-} */
 @media (max-width: 840px) {
   .lead__title {
     padding: 0;
@@ -44,7 +36,6 @@
     padding-left: 6px;
     padding-right: 6px;
     margin-top: 48px;
-    font-size: 40px;
     line-height: 44px;
     min-height: 0;
   }
