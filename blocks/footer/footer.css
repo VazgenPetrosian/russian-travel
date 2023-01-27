@@ -5,6 +5,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
+@media (max-width: 1024px) {
+  .footer {
+    margin: 92px 48px 24px 48px;
+  }
+}
 @media (max-width: 768px) {
   .footer {
     width: 93.75%;

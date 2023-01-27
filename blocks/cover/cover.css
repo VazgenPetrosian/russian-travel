@@ -1,7 +1,6 @@
 .cover {
   width: 92.5%;
   margin: 56px 3.75% 0 3.75%;
-  min-height: 740px;
   position: relative;
 }
 @media (max-width: 1024px) {
